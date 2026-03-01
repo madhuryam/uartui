@@ -1,0 +1,5 @@
+# rust build files
+target/
+
+# git
+.DS_Store

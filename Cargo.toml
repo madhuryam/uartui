@@ -1,0 +1,16 @@
+[package]
+name = "serialvision"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+tokio = { version = "1", features = ["rt-multi-thread", "sync", "time", "macros", "io-util"] }
+tokio-serial = "5.4"
+serialport = "4.5"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+directories = "5"
+chrono = "0.4"
+anyhow = "1"
