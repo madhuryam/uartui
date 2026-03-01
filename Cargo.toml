@@ -1,11 +1,13 @@
 [package]
 name = "uartui"
 version = "0.1.0"
+description = "TUI serial monitor with dual hex + ASCII views, auto-logging, user-defined protocol decoders, and session profiles"
 edition = "2021"
+lisence = "MIT"
 
 [dependencies]
-ratatui = "0.29"
-crossterm = "0.28"
+ratatui = "0.30.0"
+crossterm = "0.29.0"
 tokio = { version = "1", features = ["rt-multi-thread", "sync", "time", "macros", "io-util"] }
 tokio-serial = "5.4"
 serialport = "4.5"
