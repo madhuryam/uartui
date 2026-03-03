@@ -1,5 +1,12 @@
 # rust build files
 target/
 
-# git
+# os files
 .DS_Store
+Thumbs.db
+
+# editor files
+.vscode/
+
+# environment files
+.env
